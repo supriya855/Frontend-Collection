@@ -1,0 +1,78 @@
+.aligncenter{
+    margin:0;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-top:70px;
+    margin-bottom: 20px;
+    width:300px;
+    height:100px;
+
+}
+input{
+    border-radius:50px;
+    border: 1px solid rgb(210, 219, 228);
+    padding: 14px 10px;
+}
+input:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.button{
+    margin-top: 25px;
+    display:block;
+}
+.languages{
+    margin-top:20px;
+}
+#one{
+    padding:9px 12px;
+    border:1px solid rgb(236, 236, 236); 
+    background-color:rgb(249, 249, 249);
+    border-radius: 5px;
+    margin-right:4px;
+}
+
+#two{
+    padding:9px 12px;
+    background-color:rgb(249, 249, 249);
+    border:1px solid rgb(236, 236, 236);  
+    border-radius: 5px;
+}
+#one:hover{
+    border:1px solid rgb(199, 199, 199); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#two:hover{
+    border:1px solid rgb(222, 219, 219); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+a{
+   text-decoration: none;
+   font-size: 14px;
+   color:rgb(92, 92, 183)
+}
+a+a{
+    margin-left:6px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.signIn{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#Mainbutton{
+    padding:10px 25px;
+    background-color:#1A73Eb;
+    border:none;
+    border-radius: 3px;
+    color:white;
+}
+#Mainbutton:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
