@@ -1,0 +1,76 @@
+body {
+   background-color: rgb(249, 249, 249);
+ }
+ 
+ .header {
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+ }
+ #premb{
+  margin-left: 680px;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:rgb(235, 119, 24);
+  border-radius:5px;
+  background-color: #EAD196;
+  border: 1px solid rgb(255, 221, 166);
+  padding: 0px 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ p + p {
+   padding-left: 20px;
+ }
+ 
+ .login{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 60px 30px;
+   margin: 80px 380px;
+ }
+ a{
+   color:rgb(110, 108, 108)
+ }
+#forgot{
+   margin-right:160px;
+}
+ #button_1 {
+   width: 90%; /* Set the button width within the .login container */
+   padding: 10px;
+   color: white;
+   background: linear-gradient(#1B4242, #5C8374);
+   border-radius: 5px;
+   border: 1px solid rgb(171, 170, 170);
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+ 
+ #user,
+ #password {
+   width: 90%; /* Set the input fields width within the .login container */
+   box-sizing: border-box; /* Ensure padding and border are included in the width */
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid rgb(171, 170, 170);
+   border-radius: 5px;
+ }
+ 
+ #user {
+   margin-bottom: 5px; /* Add a small gap between inputs */
+ }
+ 
+ #ash {
+   margin:30px 20px;
+   color: rgb(167, 167, 167);
+ }
+ @media (max-width: 968px){
+  .login{
+width:400px;
+  }
+  .header{
+    display:none;
+  }
+ }
