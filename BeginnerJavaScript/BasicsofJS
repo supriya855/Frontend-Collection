@@ -1,0 +1,29 @@
+// this is runtimejs.html
+// This is like inline js
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BegineerJS</title>
+    </head>
+    <body>
+        <script>
+            console.log('hey');
+        </script>
+    </body>
+</html>
+   // this is an external js       
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BegineerJS</title>
+    </head>
+    <body>
+        <p> This is the p tag i'm using before script so I can access it using js</p>
+        <script src="./console.js"></script> // this how we are linking the js in another file to html
+        <p> If i'm using p tag after a script I will not able access it it will reads as null</p>
+    </body>
+</html>
+// console.js file
+console.log("Hey I'm in new file as it like an external javascript");
+const p = document.querySelector('p');// if i'm trying to access the after we are declaring at script it will give as null
+console.log(p);
