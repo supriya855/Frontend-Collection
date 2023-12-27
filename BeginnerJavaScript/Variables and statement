@@ -10,7 +10,40 @@ statement is anything you can do in js  is a statement  like modifiying a varibl
             let age= 60;// this is block scoped
             const PI= 3.14;// it's better use const as default and if there is a need of changing the in future we can use let preferably
             console.log(name);( it is a function call statement)
+            var dog; //undefined 
+            
         </script>
         
     </body>
 </html>
+var name='raha';
+let age=400;
+const cool=true;
+
+Difference between these three
+1. var and let can be updated
+name='john';
+age=300;
+cool=false;// it gives an error (Assignment to const variable)
+
+2. var is function scoped and let is block scoped
+
+3. const by default  
+4. let when needed
+
+///Naming Convention
+const Dog = 'bowser';
+const $$$$$$ =100;// t works
+//$ and _ are supported
+
+// Let's get into naming Convention
+//camelCase
+const iLovePizza// except for the first one every word has CapitalCase
+//UpperCamel Case
+const ILoveToEatHotDogs ="false";
+//snake_case
+const this_is_snake_case='cool';
+//kebab case
+const this-is-kebab-case=false;// it is not supported in js
+
+
