@@ -1,0 +1,16 @@
+statement is anything you can do in js  is a statement  like modifiying a varible and declaring it
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BegineerJS</title>
+    </head>
+    <body>
+        <script>
+            var name = "raha";// this function scoped (it is variable declaration statement)
+            let age= 60;// this is block scoped
+            const PI= 3.14;// it's better use const as default and if there is a need of changing the in future we can use let preferably
+            console.log(name);( it is a function call statement)
+        </script>
+        
+    </body>
+</html>
