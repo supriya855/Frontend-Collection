@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+<link rel="stylesheet" href="styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+<div class="main">
+  <img id="mainimg" src="./images/bg-main-desktop.png">
+<div class="login">
+  <div class="holder_name">
+  Cardholder Name
+  <input type="text" placeholder="e.g. Jane Appleseed">
+</div>
+<div class="cardnum">
+Card Number
+  <input type="text" placeholder="e.g. 1234 5678 9123 0000">
+</div>
+        <div class="date">
+          <div class="expcvc">
+        <div id="expdata">Exp. Date (MM/YY)</div>
+        <div id="cvc">CVC</div>
+      </div>
+        <div class="inputdate">
+          <input id="m" type="text" placeholder="MM">
+        <input id= "y" type="text" placeholder="YY">
+        <input id="cvc" type="text" placeholder=" e.g. 123">
+      </div>
+      </div>
+      <div>
+        <button id="confirm"> Confirm</button>
+        </div>
+</div>
+</div>
+<div class="carddata">
+<div id="front">
+<img class="frontimg"src="./images/bg-card-front.png"></div>
+<img class="icon1" src="./images/favicon-32x32.png">
+<img class="icon2" src="./images/icon-complete.svg">
+<div class="middle">0000 0000 0000 0000</div>
+<div class="left">Jane Appleseed</div>
+<div class="right">00/00</div>
+</div>
+<div class="backcard">
+  <div id="back">
+ <img class="backimg"src="./images/bg-card-back.png"></div>
+ <div class="leftback">000</div>
+</div>
+</div>
+</div>
+</body>
+</html>
