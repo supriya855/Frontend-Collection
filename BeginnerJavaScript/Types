@@ -1,0 +1,42 @@
+SNOBUSN
+-------------------
+Symbol
+null
+object
+Boolean
+undefined
+String
+number
+
+BOOLEAN
+=== checks the value and type 
+"10"==10 bothe values are same but type is different 
+so it return false;
+where == equal check only value
+"10"==10 it returns true
+and its good practise to use the ===
+
+////////////////////////////////////////////////////////////////////////
+NULL AND UNDEFINED
+-> both are nothing let's differentiate there difference
+
+let name;
+console.log(name)// results undefined // something is declared but not used
+const cher={
+first:'cher'
+}// this for undefined
+==> cher.last
+>> undefiend
+let teller ={
+"first":"raymond",
+"last":"Teller"
+}// this for null
+teller.first="Teller";
+teller.last = null;
+>>teller.last
+>>null
+
+NUMBER
+>>>typeof 10
+>>> number
+
