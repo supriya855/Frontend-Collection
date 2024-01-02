@@ -1,0 +1,8 @@
+Date.now();
+ParseFloat('20.0209309');
+parseInt(20.932090);//20
+Math.ceil(20.2783687);
+Math.floor(20.2783687);
+Math.max(10,12);
+navigator.vibrate();
+scrollTo({top:500,left :0, behaviour:'smooth'})// function returns undefined but it does it woork
