@@ -1,95 +1,29 @@
 
 body{
   margin:0px;
-  flex-direction: row;
-  align-items: center;
   font-family: 'Cantarell', sans-serif;
   font-family: 'Space Grotesk', sans-serif;
   font-size:15px;
 }
-#confirm{
-  padding:10px;
-  background-color: #392467;
-  color:white;
-  border-radius: 4px;
-  border : 1px solid white;
-  width:300px;
-  margin-top:12px;
-}
-input{
-  border-radius:4px;
-  border:1px solid rgb(212, 212, 212);
-  padding:9px;
-  width:280px;
-  margin-top:8px;
-}
-.login{
-  display: flex;
-  flex-direction: column;
-  margin : 240px 650px;
-}
 .main{
   display: flex;
   flex-direction: row;
-  align-items:center;
-}
-   .middle{
-  position: absolute;
-  font-size:x-large;
-  top: 50%;
-  left: 13%;
-
-}
-.left{
-  position: relative;
-  bottom: 50px;
-  right: 80px;
-}
-.right{
-  position: relative;
-  bottom: 73px;
-  left: 80px;
-}
-.leftback{
-  position: absolute;
-  top: 43%;
-  left: 80%;
-}
-.date{
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
-.inputdate{
-  display: flex;
-  flex-direction: row;
-  margin-top:2px;
-  margin-bottom: 7px;
+.side-bar{
+  position: relative;
 }
-#m{
-  width:30px;
-}
-#mainimg{
-  margin-right:10px;
+#main-img{
   width:400px;
+}
+.front-card-data{
   position: absolute;
-  top:0px;
-  left:0px;
+  top:100px;
+  left: 100px;
+  color:white;
 }
-#y{
-  margin-left:10px;
-  width:50px;
-}
-#cvc{
-  margin-left:20px;
-  width:130px;
-}
-.carddata{
-    text-align: center;
-    color: white;
-    position: absolute;
-    top:150px;
-    left:60px;
+.frontimg{
+  width:400px;
 }
 .icon1{
   position: absolute;
@@ -102,29 +36,138 @@ input{
   top:35px;
   left:70px;
 }
-  .backcard{
-  position:relative;
-    color: white;
-    position: absolute;
-    top:400px;
-    left:130px;
+.login{
+  display: flex;
+  flex-direction: column;
+  margin : 240px 350px;
+}
+#confirm{
+  padding:10px;
+  background-color: #392467;
+  color:white;
+  border-radius: 4px;
+  border : 1px solid white;
+  width:300px;
+  margin-top:12px;
+}
+.middle{
+  position: absolute;
+  font-size:x-large;
+  top: 150px;
+  left: 46px;
+
+}
+.left{
+  position: relative;
+  bottom: 40px;
+  left:20px;
+}
+.right{
+  position: relative;
+  bottom: 57px;
+  left: 280px;
+}
+input{
+  border-radius:4px;
+  border:1px solid rgb(212, 212, 212);
+  padding:9px;
+  width:280px;
+  margin-top:8px;
+}
+.back-card-data{
+  position: absolute;
+  top:360px;
+  left:180px;
+  color:white;
+}
+.backimg{
+  width:400px;
+}
+.leftback{
+  position: absolute;
+  top: 43%;
+  left: 80%;
+}
+.date{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input-date{
+  display: flex;
+  flex-direction: row;
+  margin-top:2px;
+  margin-bottom: 7px;
+}
+#m{
+  width:30px;
+}
+
+#y{
+  margin-left:10px;
+  width:50px;
+}
+#cvc{
+  margin-left:20px;
+  width:130px;
 }
 .holder_name{
   display: flex;
   flex-direction: column;
   margin-bottom:10px;
 }
-.cardnum{
+.card_num{
   margin-bottom:10px;
-}
-.frontimg{
-  width:400px;
-}
-.backimg{
-  width:400px;
 }
 .expcvc{
   display: flex;
   flex-direction: row;
   justify-content:start;
+}
+@media screen and (max-width: 480px) {
+ .main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ }
+ .side-bar{
+  position: relative;
+ }
+ .login{
+position:absolute;
+top:150px;
+left:-300px;
+
+}
+#main-img{
+  position: relative;
+  width:100%;
+  height: 300px;
+}
+.front-card-data{
+  position: absolute;
+  top:135px;
+  left: 20px;
+  z-index: 1;
+  color:white;
+}
+.back-card-data{
+  position: absolute;
+  top:30px;
+  left:50px;
+  color:white;
+}
+.frontimg, .backimg{
+  width:350px;
+}
+.middle{
+  position: absolute;
+  font-size:large;
+  top: 130px;
+  left: 80px;
+}
+.card_num{
+  display: flex;
+  flex-direction: column;
+}
 }
