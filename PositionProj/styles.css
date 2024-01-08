@@ -134,9 +134,9 @@ input{
   position: relative;
  }
  .login{
-position:absolute;
-top:150px;
-left:-300px;
+  position:absolute;
+  top:150px;
+  left:-300px;
 
 }
 #main-img{
